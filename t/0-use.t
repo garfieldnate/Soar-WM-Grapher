@@ -5,7 +5,6 @@ use Test::More 0.88;
 plan tests => 1;
 my $package = 'Soar::WM::Grapher';
 
-require $package;
-new_ok($package);
+use_ok $package;
 
 __END__
