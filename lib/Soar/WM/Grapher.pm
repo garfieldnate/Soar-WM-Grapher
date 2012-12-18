@@ -104,6 +104,7 @@ This module can be used to create GraphViz representations of Soar working memor
 =head1 METHODS
 
 =head2 C<wm_graph>
+
 There are three required arguments: a L<Soar::WM> object, the ID of the working memory element to begin graphing from, and the depth to graph.
 If the depth is 1, then only the specified element and its attribute-value pairs will be graphed. 2 will also graph each of the WMEs attached to the first node, and so on.
 The return value is a L<GraphViz> object.
